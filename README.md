@@ -1,2 +1,0 @@
-# kayac
-kayac recreation
