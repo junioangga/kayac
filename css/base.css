@@ -868,6 +868,30 @@ h2{
 	.rotate{
 		transform: rotate(180deg);
 	}
+	.logo-sp{
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		margin: auto;
+		width: 135px;
+		height: 28px;
+		background: url(../images/pict_logo03.svg);
+		background-size: 85px 26.5px;
+		background-repeat: no-repeat;
+		background-position: center right;
+	}
+	.logo-sp:before{    
+		content: '';
+	    position: absolute;
+	    background-image: url(../images/pict_logo04.svg);
+	    background-size: contain;
+	    background-repeat: no-repeat;
+	    background-position: center;
+	    height: 100%;
+	    width: 46px;
+	}
 	.footer{
 		overflow: hidden;
 		height: auto;
